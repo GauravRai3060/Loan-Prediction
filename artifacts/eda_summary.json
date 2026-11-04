@@ -1,0 +1,1192 @@
+{
+  "dataset_summary": {
+    "total_records": 255347,
+    "non_defaults": 225694,
+    "defaults": 29653,
+    "default_rate": 0.1161,
+    "default_percentage": 11.61,
+    "missing_values": 0,
+    "feature_count": 16
+  },
+  "numerical_statistics": {
+    "Age": {
+      "mean": 43.5,
+      "std": 14.99,
+      "min": 18.0,
+      "p25": 31.0,
+      "median": 43.0,
+      "p75": 56.0,
+      "max": 69.0,
+      "skew": 0.0
+    },
+    "Income": {
+      "mean": 82499.3,
+      "std": 38963.01,
+      "min": 15000.0,
+      "p25": 48825.5,
+      "median": 82466.0,
+      "p75": 116219.0,
+      "max": 149999.0,
+      "skew": -0.0
+    },
+    "LoanAmount": {
+      "mean": 127578.87,
+      "std": 70840.71,
+      "min": 5000.0,
+      "p25": 66156.0,
+      "median": 127556.0,
+      "p75": 188985.0,
+      "max": 249999.0,
+      "skew": -0.0
+    },
+    "CreditScore": {
+      "mean": 574.26,
+      "std": 158.9,
+      "min": 300.0,
+      "p25": 437.0,
+      "median": 574.0,
+      "p75": 712.0,
+      "max": 849.0,
+      "skew": 0.0
+    },
+    "MonthsEmployed": {
+      "mean": 59.54,
+      "std": 34.64,
+      "min": 0.0,
+      "p25": 30.0,
+      "median": 60.0,
+      "p75": 90.0,
+      "max": 119.0,
+      "skew": -0.0
+    },
+    "NumCreditLines": {
+      "mean": 2.5,
+      "std": 1.12,
+      "min": 1.0,
+      "p25": 2.0,
+      "median": 2.0,
+      "p75": 3.0,
+      "max": 4.0,
+      "skew": -0.0
+    },
+    "InterestRate": {
+      "mean": 13.49,
+      "std": 6.64,
+      "min": 2.0,
+      "p25": 7.77,
+      "median": 13.46,
+      "p75": 19.25,
+      "max": 25.0,
+      "skew": 0.0
+    },
+    "LoanTerm": {
+      "mean": 36.03,
+      "std": 16.97,
+      "min": 12.0,
+      "p25": 24.0,
+      "median": 36.0,
+      "p75": 48.0,
+      "max": 60.0,
+      "skew": -0.0
+    },
+    "DTIRatio": {
+      "mean": 0.5,
+      "std": 0.23,
+      "min": 0.1,
+      "p25": 0.3,
+      "median": 0.5,
+      "p75": 0.7,
+      "max": 0.9,
+      "skew": -0.0
+    }
+  },
+  "categorical_statistics": {
+    "Education": [
+      {
+        "category": "Bachelor's",
+        "count": 64366,
+        "pct_of_total": 25.21,
+        "defaults": 7789,
+        "default_rate": 0.121
+      },
+      {
+        "category": "High School",
+        "count": 63903,
+        "pct_of_total": 25.03,
+        "defaults": 8230,
+        "default_rate": 0.1288
+      },
+      {
+        "category": "Master's",
+        "count": 63541,
+        "pct_of_total": 24.88,
+        "defaults": 6908,
+        "default_rate": 0.1087
+      },
+      {
+        "category": "PhD",
+        "count": 63537,
+        "pct_of_total": 24.88,
+        "defaults": 6726,
+        "default_rate": 0.1059
+      }
+    ],
+    "EmploymentType": [
+      {
+        "category": "Full-time",
+        "count": 63656,
+        "pct_of_total": 24.93,
+        "defaults": 6024,
+        "default_rate": 0.0946
+      },
+      {
+        "category": "Part-time",
+        "count": 64161,
+        "pct_of_total": 25.13,
+        "defaults": 7677,
+        "default_rate": 0.1197
+      },
+      {
+        "category": "Self-employed",
+        "count": 63706,
+        "pct_of_total": 24.95,
+        "defaults": 7302,
+        "default_rate": 0.1146
+      },
+      {
+        "category": "Unemployed",
+        "count": 63824,
+        "pct_of_total": 25.0,
+        "defaults": 8650,
+        "default_rate": 0.1355
+      }
+    ],
+    "MaritalStatus": [
+      {
+        "category": "Divorced",
+        "count": 85033,
+        "pct_of_total": 33.3,
+        "defaults": 10657,
+        "default_rate": 0.1253
+      },
+      {
+        "category": "Married",
+        "count": 85302,
+        "pct_of_total": 33.41,
+        "defaults": 8869,
+        "default_rate": 0.104
+      },
+      {
+        "category": "Single",
+        "count": 85012,
+        "pct_of_total": 33.29,
+        "defaults": 10127,
+        "default_rate": 0.1191
+      }
+    ],
+    "HasMortgage": [
+      {
+        "category": "No",
+        "count": 127670,
+        "pct_of_total": 50.0,
+        "defaults": 15761,
+        "default_rate": 0.1235
+      },
+      {
+        "category": "Yes",
+        "count": 127677,
+        "pct_of_total": 50.0,
+        "defaults": 13892,
+        "default_rate": 0.1088
+      }
+    ],
+    "HasDependents": [
+      {
+        "category": "No",
+        "count": 127605,
+        "pct_of_total": 49.97,
+        "defaults": 16237,
+        "default_rate": 0.1272
+      },
+      {
+        "category": "Yes",
+        "count": 127742,
+        "pct_of_total": 50.03,
+        "defaults": 13416,
+        "default_rate": 0.105
+      }
+    ],
+    "LoanPurpose": [
+      {
+        "category": "Auto",
+        "count": 50844,
+        "pct_of_total": 19.91,
+        "defaults": 6041,
+        "default_rate": 0.1188
+      },
+      {
+        "category": "Business",
+        "count": 51298,
+        "pct_of_total": 20.09,
+        "defaults": 6323,
+        "default_rate": 0.1233
+      },
+      {
+        "category": "Education",
+        "count": 51005,
+        "pct_of_total": 19.97,
+        "defaults": 6038,
+        "default_rate": 0.1184
+      },
+      {
+        "category": "Home",
+        "count": 51286,
+        "pct_of_total": 20.08,
+        "defaults": 5249,
+        "default_rate": 0.1023
+      },
+      {
+        "category": "Other",
+        "count": 50914,
+        "pct_of_total": 19.94,
+        "defaults": 6002,
+        "default_rate": 0.1179
+      }
+    ],
+    "HasCoSigner": [
+      {
+        "category": "No",
+        "count": 127646,
+        "pct_of_total": 49.99,
+        "defaults": 16423,
+        "default_rate": 0.1287
+      },
+      {
+        "category": "Yes",
+        "count": 127701,
+        "pct_of_total": 50.01,
+        "defaults": 13230,
+        "default_rate": 0.1036
+      }
+    ]
+  },
+  "correlations_with_default": {
+    "Age": -0.1678,
+    "InterestRate": 0.1313,
+    "Income": -0.0991,
+    "MonthsEmployed": -0.0974,
+    "LoanAmount": 0.0867,
+    "CreditScore": -0.0342,
+    "NumCreditLines": 0.0283,
+    "DTIRatio": 0.0192,
+    "LoanTerm": 0.0005
+  },
+  "iv_rankings": {
+    "Age": {
+      "iv": 0.2874,
+      "strength": "Medium Predictor (0.1 - 0.3)"
+    },
+    "InterestRate": {
+      "iv": 0.1731,
+      "strength": "Medium Predictor (0.1 - 0.3)"
+    },
+    "Income": {
+      "iv": 0.1243,
+      "strength": "Medium Predictor (0.1 - 0.3)"
+    },
+    "MonthsEmployed": {
+      "iv": 0.0923,
+      "strength": "Weak Predictor (0.02 - 0.1)"
+    },
+    "LoanAmount": {
+      "iv": 0.0734,
+      "strength": "Weak Predictor (0.02 - 0.1)"
+    },
+    "EmploymentType": {
+      "iv": 0.0206,
+      "strength": "Weak Predictor (0.02 - 0.1)"
+    },
+    "HasCoSigner": {
+      "iv": 0.015,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "HasDependents": {
+      "iv": 0.0117,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "CreditScore": {
+      "iv": 0.0116,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "Education": {
+      "iv": 0.0081,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "NumCreditLines": {
+      "iv": 0.0079,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "MaritalStatus": {
+      "iv": 0.0078,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "HasMortgage": {
+      "iv": 0.0051,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "LoanPurpose": {
+      "iv": 0.0051,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "DTIRatio": {
+      "iv": 0.0041,
+      "strength": "Not Predictive (<0.02)"
+    },
+    "LoanTerm": {
+      "iv": 0.0,
+      "strength": "Not Predictive (<0.02)"
+    }
+  },
+  "detailed_woe": {
+    "Age": [
+      {
+        "bin": "(17.999, 23.0]",
+        "total_count": 29307,
+        "default_count": 6245,
+        "default_rate": 0.2131,
+        "woe": -0.7232,
+        "iv_contribution": 0.0784
+      },
+      {
+        "bin": "(23.0, 28.0]",
+        "total_count": 24451,
+        "default_count": 4523,
+        "default_rate": 0.185,
+        "woe": -0.5467,
+        "iv_contribution": 0.0351
+      },
+      {
+        "bin": "(28.0, 33.0]",
+        "total_count": 24718,
+        "default_count": 3871,
+        "default_rate": 0.1566,
+        "woe": -0.346,
+        "iv_contribution": 0.0132
+      },
+      {
+        "bin": "(33.0, 38.0]",
+        "total_count": 24665,
+        "default_count": 3372,
+        "default_rate": 0.1367,
+        "woe": -0.1868,
+        "iv_contribution": 0.0036
+      },
+      {
+        "bin": "(38.0, 43.0]",
+        "total_count": 24612,
+        "default_count": 2738,
+        "default_rate": 0.1112,
+        "woe": 0.0483,
+        "iv_contribution": 0.0002
+      },
+      {
+        "bin": "(43.0, 49.0]",
+        "total_count": 29471,
+        "default_count": 2797,
+        "default_rate": 0.0949,
+        "woe": 0.2254,
+        "iv_contribution": 0.0054
+      },
+      {
+        "bin": "(49.0, 54.0]",
+        "total_count": 24504,
+        "default_count": 1992,
+        "default_rate": 0.0813,
+        "woe": 0.3951,
+        "iv_contribution": 0.0129
+      },
+      {
+        "bin": "(54.0, 59.0]",
+        "total_count": 24645,
+        "default_count": 1604,
+        "default_rate": 0.0651,
+        "woe": 0.6349,
+        "iv_contribution": 0.0305
+      },
+      {
+        "bin": "(59.0, 64.0]",
+        "total_count": 24455,
+        "default_count": 1323,
+        "default_rate": 0.0541,
+        "woe": 0.8314,
+        "iv_contribution": 0.0481
+      },
+      {
+        "bin": "(64.0, 69.0]",
+        "total_count": 24519,
+        "default_count": 1188,
+        "default_rate": 0.0485,
+        "woe": 0.9475,
+        "iv_contribution": 0.06
+      }
+    ],
+    "Income": [
+      {
+        "bin": "(109520.2, 122965.0]",
+        "total_count": 25535,
+        "default_count": 2350,
+        "default_rate": 0.092,
+        "woe": 0.2593,
+        "iv_contribution": 0.0061
+      },
+      {
+        "bin": "(122965.0, 136519.4]",
+        "total_count": 25534,
+        "default_count": 2324,
+        "default_rate": 0.091,
+        "woe": 0.2715,
+        "iv_contribution": 0.0066
+      },
+      {
+        "bin": "(136519.4, 149999.0]",
+        "total_count": 25535,
+        "default_count": 2259,
+        "default_rate": 0.0885,
+        "woe": 0.3027,
+        "iv_contribution": 0.0082
+      },
+      {
+        "bin": "(14999.999, 28457.0]",
+        "total_count": 25537,
+        "default_count": 5737,
+        "default_rate": 0.2247,
+        "woe": -0.7909,
+        "iv_contribution": 0.0836
+      },
+      {
+        "bin": "(28457.0, 42031.0]",
+        "total_count": 25535,
+        "default_count": 3731,
+        "default_rate": 0.1461,
+        "woe": -0.2643,
+        "iv_contribution": 0.0077
+      },
+      {
+        "bin": "(42031.0, 55571.6]",
+        "total_count": 25532,
+        "default_count": 3053,
+        "default_rate": 0.1196,
+        "woe": -0.0333,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "(55571.6, 69065.0]",
+        "total_count": 25536,
+        "default_count": 2759,
+        "default_rate": 0.108,
+        "woe": 0.0811,
+        "iv_contribution": 0.0006
+      },
+      {
+        "bin": "(69065.0, 82466.0]",
+        "total_count": 25534,
+        "default_count": 2542,
+        "default_rate": 0.0996,
+        "woe": 0.1724,
+        "iv_contribution": 0.0028
+      },
+      {
+        "bin": "(82466.0, 95990.2]",
+        "total_count": 25534,
+        "default_count": 2495,
+        "default_rate": 0.0977,
+        "woe": 0.1931,
+        "iv_contribution": 0.0035
+      },
+      {
+        "bin": "(95990.2, 109520.2]",
+        "total_count": 25535,
+        "default_count": 2403,
+        "default_rate": 0.0941,
+        "woe": 0.2347,
+        "iv_contribution": 0.005
+      }
+    ],
+    "LoanAmount": [
+      {
+        "bin": "(102995.8, 127556.0]",
+        "total_count": 25535,
+        "default_count": 2759,
+        "default_rate": 0.108,
+        "woe": 0.0811,
+        "iv_contribution": 0.0006
+      },
+      {
+        "bin": "(127556.0, 152186.8]",
+        "total_count": 25534,
+        "default_count": 2959,
+        "default_rate": 0.1159,
+        "woe": 0.0023,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(152186.8, 176789.0]",
+        "total_count": 25537,
+        "default_count": 3258,
+        "default_rate": 0.1276,
+        "woe": -0.1072,
+        "iv_contribution": 0.0012
+      },
+      {
+        "bin": "(176789.0, 201313.0]",
+        "total_count": 25533,
+        "default_count": 3553,
+        "default_rate": 0.1392,
+        "woe": -0.2074,
+        "iv_contribution": 0.0047
+      },
+      {
+        "bin": "(201313.0, 225614.0]",
+        "total_count": 25536,
+        "default_count": 3900,
+        "default_rate": 0.1527,
+        "woe": -0.3163,
+        "iv_contribution": 0.0113
+      },
+      {
+        "bin": "(225614.0, 249999.0]",
+        "total_count": 25533,
+        "default_count": 4177,
+        "default_rate": 0.1636,
+        "woe": -0.3979,
+        "iv_contribution": 0.0184
+      },
+      {
+        "bin": "(29362.0, 53873.2]",
+        "total_count": 25533,
+        "default_count": 2140,
+        "default_rate": 0.0838,
+        "woe": 0.3618,
+        "iv_contribution": 0.0114
+      },
+      {
+        "bin": "(4999.999, 29362.0]",
+        "total_count": 25537,
+        "default_count": 1971,
+        "default_rate": 0.0772,
+        "woe": 0.4514,
+        "iv_contribution": 0.0171
+      },
+      {
+        "bin": "(53873.2, 78476.8]",
+        "total_count": 25534,
+        "default_count": 2313,
+        "default_rate": 0.0906,
+        "woe": 0.2767,
+        "iv_contribution": 0.0069
+      },
+      {
+        "bin": "(78476.8, 102995.8]",
+        "total_count": 25535,
+        "default_count": 2623,
+        "default_rate": 0.1027,
+        "woe": 0.1376,
+        "iv_contribution": 0.0018
+      }
+    ],
+    "CreditScore": [
+      {
+        "bin": "(299.999, 354.0]",
+        "total_count": 25614,
+        "default_count": 3497,
+        "default_rate": 0.1365,
+        "woe": -0.1853,
+        "iv_contribution": 0.0037
+      },
+      {
+        "bin": "(354.0, 409.0]",
+        "total_count": 25745,
+        "default_count": 3286,
+        "default_rate": 0.1276,
+        "woe": -0.1077,
+        "iv_contribution": 0.0012
+      },
+      {
+        "bin": "(409.0, 464.0]",
+        "total_count": 25476,
+        "default_count": 3151,
+        "default_rate": 0.1237,
+        "woe": -0.0717,
+        "iv_contribution": 0.0005
+      },
+      {
+        "bin": "(464.0, 519.0]",
+        "total_count": 25678,
+        "default_count": 3104,
+        "default_rate": 0.1209,
+        "woe": -0.0456,
+        "iv_contribution": 0.0002
+      },
+      {
+        "bin": "(519.0, 574.0]",
+        "total_count": 25430,
+        "default_count": 2925,
+        "default_rate": 0.115,
+        "woe": 0.0107,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(574.0, 629.0]",
+        "total_count": 25555,
+        "default_count": 2988,
+        "default_rate": 0.1169,
+        "woe": -0.0078,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(629.0, 684.0]",
+        "total_count": 25531,
+        "default_count": 2866,
+        "default_rate": 0.1123,
+        "woe": 0.0382,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "(684.0, 740.0]",
+        "total_count": 25547,
+        "default_count": 2674,
+        "default_rate": 0.1047,
+        "woe": 0.1166,
+        "iv_contribution": 0.0013
+      },
+      {
+        "bin": "(740.0, 795.0]",
+        "total_count": 25463,
+        "default_count": 2685,
+        "default_rate": 0.1054,
+        "woe": 0.1084,
+        "iv_contribution": 0.0011
+      },
+      {
+        "bin": "(795.0, 849.0]",
+        "total_count": 25308,
+        "default_count": 2477,
+        "default_rate": 0.0979,
+        "woe": 0.1913,
+        "iv_contribution": 0.0034
+      }
+    ],
+    "MonthsEmployed": [
+      {
+        "bin": "(-0.001, 12.0]",
+        "total_count": 27668,
+        "default_count": 4678,
+        "default_rate": 0.1691,
+        "woe": -0.4375,
+        "iv_contribution": 0.0245
+      },
+      {
+        "bin": "(108.0, 119.0]",
+        "total_count": 23401,
+        "default_count": 1676,
+        "default_rate": 0.0716,
+        "woe": 0.5322,
+        "iv_contribution": 0.0211
+      },
+      {
+        "bin": "(12.0, 24.0]",
+        "total_count": 25317,
+        "default_count": 3925,
+        "default_rate": 0.155,
+        "woe": -0.334,
+        "iv_contribution": 0.0126
+      },
+      {
+        "bin": "(24.0, 36.0]",
+        "total_count": 25577,
+        "default_count": 3656,
+        "default_rate": 0.1429,
+        "woe": -0.2386,
+        "iv_contribution": 0.0062
+      },
+      {
+        "bin": "(36.0, 48.0]",
+        "total_count": 25572,
+        "default_count": 3260,
+        "default_rate": 0.1275,
+        "woe": -0.1063,
+        "iv_contribution": 0.0012
+      },
+      {
+        "bin": "(48.0, 60.0]",
+        "total_count": 25631,
+        "default_count": 2937,
+        "default_rate": 0.1146,
+        "woe": 0.015,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(60.0, 72.0]",
+        "total_count": 25423,
+        "default_count": 2709,
+        "default_rate": 0.1066,
+        "woe": 0.0967,
+        "iv_contribution": 0.0009
+      },
+      {
+        "bin": "(72.0, 84.0]",
+        "total_count": 25634,
+        "default_count": 2474,
+        "default_rate": 0.0965,
+        "woe": 0.2068,
+        "iv_contribution": 0.004
+      },
+      {
+        "bin": "(84.0, 96.0]",
+        "total_count": 25496,
+        "default_count": 2282,
+        "default_rate": 0.0895,
+        "woe": 0.2899,
+        "iv_contribution": 0.0075
+      },
+      {
+        "bin": "(96.0, 108.0]",
+        "total_count": 25628,
+        "default_count": 2056,
+        "default_rate": 0.0802,
+        "woe": 0.4095,
+        "iv_contribution": 0.0144
+      }
+    ],
+    "NumCreditLines": [
+      {
+        "bin": "1",
+        "total_count": 63554,
+        "default_count": 6688,
+        "default_rate": 0.1052,
+        "woe": 0.1107,
+        "iv_contribution": 0.0029
+      },
+      {
+        "bin": "2",
+        "total_count": 64130,
+        "default_count": 7092,
+        "default_rate": 0.1106,
+        "woe": 0.0551,
+        "iv_contribution": 0.0007
+      },
+      {
+        "bin": "3",
+        "total_count": 63834,
+        "default_count": 7612,
+        "default_rate": 0.1192,
+        "woe": -0.0301,
+        "iv_contribution": 0.0002
+      },
+      {
+        "bin": "4",
+        "total_count": 63829,
+        "default_count": 8261,
+        "default_rate": 0.1294,
+        "woe": -0.1236,
+        "iv_contribution": 0.004
+      }
+    ],
+    "InterestRate": [
+      {
+        "bin": "(1.999, 4.31]",
+        "total_count": 25628,
+        "default_count": 1480,
+        "default_rate": 0.0577,
+        "woe": 0.7623,
+        "iv_contribution": 0.0435
+      },
+      {
+        "bin": "(11.18, 13.46]",
+        "total_count": 25498,
+        "default_count": 2690,
+        "default_rate": 0.1055,
+        "woe": 0.1078,
+        "iv_contribution": 0.0011
+      },
+      {
+        "bin": "(13.46, 15.76]",
+        "total_count": 25506,
+        "default_count": 2956,
+        "default_rate": 0.1159,
+        "woe": 0.0022,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(15.76, 18.08]",
+        "total_count": 25546,
+        "default_count": 3430,
+        "default_rate": 0.1343,
+        "woe": -0.166,
+        "iv_contribution": 0.0029
+      },
+      {
+        "bin": "(18.08, 20.4]",
+        "total_count": 25550,
+        "default_count": 3840,
+        "default_rate": 0.1503,
+        "woe": -0.2974,
+        "iv_contribution": 0.0099
+      },
+      {
+        "bin": "(20.4, 22.71]",
+        "total_count": 25498,
+        "default_count": 4350,
+        "default_rate": 0.1706,
+        "woe": -0.4483,
+        "iv_contribution": 0.0238
+      },
+      {
+        "bin": "(22.71, 25.0]",
+        "total_count": 25497,
+        "default_count": 4850,
+        "default_rate": 0.1902,
+        "woe": -0.5811,
+        "iv_contribution": 0.0419
+      },
+      {
+        "bin": "(4.31, 6.62]",
+        "total_count": 25519,
+        "default_count": 1748,
+        "default_rate": 0.0685,
+        "woe": 0.5801,
+        "iv_contribution": 0.0269
+      },
+      {
+        "bin": "(6.62, 8.9]",
+        "total_count": 25478,
+        "default_count": 1998,
+        "default_rate": 0.0784,
+        "woe": 0.4342,
+        "iv_contribution": 0.0159
+      },
+      {
+        "bin": "(8.9, 11.18]",
+        "total_count": 25627,
+        "default_count": 2311,
+        "default_rate": 0.0902,
+        "woe": 0.2817,
+        "iv_contribution": 0.0071
+      }
+    ],
+    "LoanTerm": [
+      {
+        "bin": "12",
+        "total_count": 50957,
+        "default_count": 5920,
+        "default_rate": 0.1162,
+        "woe": -0.0005,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "24",
+        "total_count": 51009,
+        "default_count": 5921,
+        "default_rate": 0.1161,
+        "woe": 0.0004,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "36",
+        "total_count": 51061,
+        "default_count": 5907,
+        "default_rate": 0.1157,
+        "woe": 0.0043,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "48",
+        "total_count": 51166,
+        "default_count": 5922,
+        "default_rate": 0.1157,
+        "woe": 0.0037,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "60",
+        "total_count": 51154,
+        "default_count": 5983,
+        "default_rate": 0.117,
+        "woe": -0.0081,
+        "iv_contribution": 0.0
+      }
+    ],
+    "DTIRatio": [
+      {
+        "bin": "(0.099, 0.18]",
+        "total_count": 27039,
+        "default_count": 2838,
+        "default_rate": 0.105,
+        "woe": 0.1136,
+        "iv_contribution": 0.0013
+      },
+      {
+        "bin": "(0.18, 0.26]",
+        "total_count": 25445,
+        "default_count": 2714,
+        "default_rate": 0.1067,
+        "woe": 0.0956,
+        "iv_contribution": 0.0009
+      },
+      {
+        "bin": "(0.26, 0.34]",
+        "total_count": 25605,
+        "default_count": 2894,
+        "default_rate": 0.113,
+        "woe": 0.0305,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "(0.34, 0.42]",
+        "total_count": 25633,
+        "default_count": 2866,
+        "default_rate": 0.1118,
+        "woe": 0.0427,
+        "iv_contribution": 0.0002
+      },
+      {
+        "bin": "(0.42, 0.5]",
+        "total_count": 25496,
+        "default_count": 3022,
+        "default_rate": 0.1185,
+        "woe": -0.0233,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "(0.5, 0.58]",
+        "total_count": 25339,
+        "default_count": 2974,
+        "default_rate": 0.1174,
+        "woe": -0.0121,
+        "iv_contribution": 0.0
+      },
+      {
+        "bin": "(0.58, 0.66]",
+        "total_count": 25624,
+        "default_count": 3069,
+        "default_rate": 0.1198,
+        "woe": -0.0351,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "(0.66, 0.74]",
+        "total_count": 25597,
+        "default_count": 3174,
+        "default_rate": 0.124,
+        "woe": -0.0746,
+        "iv_contribution": 0.0006
+      },
+      {
+        "bin": "(0.74, 0.82]",
+        "total_count": 25657,
+        "default_count": 3195,
+        "default_rate": 0.1245,
+        "woe": -0.0795,
+        "iv_contribution": 0.0007
+      },
+      {
+        "bin": "(0.82, 0.9]",
+        "total_count": 23912,
+        "default_count": 2907,
+        "default_rate": 0.1216,
+        "woe": -0.0521,
+        "iv_contribution": 0.0003
+      }
+    ],
+    "Education": [
+      {
+        "bin": "Bachelor's",
+        "total_count": 64366,
+        "default_count": 7789,
+        "default_rate": 0.121,
+        "woe": -0.0468,
+        "iv_contribution": 0.0006
+      },
+      {
+        "bin": "High School",
+        "total_count": 63903,
+        "default_count": 8230,
+        "default_rate": 0.1288,
+        "woe": -0.1179,
+        "iv_contribution": 0.0036
+      },
+      {
+        "bin": "Master's",
+        "total_count": 63541,
+        "default_count": 6908,
+        "default_rate": 0.1087,
+        "woe": 0.0743,
+        "iv_contribution": 0.0013
+      },
+      {
+        "bin": "PhD",
+        "total_count": 63537,
+        "default_count": 6726,
+        "default_rate": 0.1059,
+        "woe": 0.1041,
+        "iv_contribution": 0.0026
+      }
+    ],
+    "EmploymentType": [
+      {
+        "bin": "Full-time",
+        "total_count": 63656,
+        "default_count": 6024,
+        "default_rate": 0.0946,
+        "woe": 0.2287,
+        "iv_contribution": 0.0119
+      },
+      {
+        "bin": "Part-time",
+        "total_count": 64161,
+        "default_count": 7677,
+        "default_rate": 0.1197,
+        "woe": -0.0339,
+        "iv_contribution": 0.0003
+      },
+      {
+        "bin": "Self-employed",
+        "total_count": 63706,
+        "default_count": 7302,
+        "default_rate": 0.1146,
+        "woe": 0.0147,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "Unemployed",
+        "total_count": 63824,
+        "default_count": 8650,
+        "default_rate": 0.1355,
+        "woe": -0.1767,
+        "iv_contribution": 0.0083
+      }
+    ],
+    "MaritalStatus": [
+      {
+        "bin": "Divorced",
+        "total_count": 85033,
+        "default_count": 10657,
+        "default_rate": 0.1253,
+        "woe": -0.0867,
+        "iv_contribution": 0.0026
+      },
+      {
+        "bin": "Married",
+        "total_count": 85302,
+        "default_count": 8869,
+        "default_rate": 0.104,
+        "woe": 0.1242,
+        "iv_contribution": 0.0049
+      },
+      {
+        "bin": "Single",
+        "total_count": 85012,
+        "default_count": 10127,
+        "default_rate": 0.1191,
+        "woe": -0.0289,
+        "iv_contribution": 0.0003
+      }
+    ],
+    "HasMortgage": [
+      {
+        "bin": "No",
+        "total_count": 127670,
+        "default_count": 15761,
+        "default_rate": 0.1235,
+        "woe": -0.0695,
+        "iv_contribution": 0.0025
+      },
+      {
+        "bin": "Yes",
+        "total_count": 127677,
+        "default_count": 13892,
+        "default_rate": 0.1088,
+        "woe": 0.0734,
+        "iv_contribution": 0.0026
+      }
+    ],
+    "HasDependents": [
+      {
+        "bin": "No",
+        "total_count": 127605,
+        "default_count": 16237,
+        "default_rate": 0.1272,
+        "woe": -0.1041,
+        "iv_contribution": 0.0056
+      },
+      {
+        "bin": "Yes",
+        "total_count": 127742,
+        "default_count": 13416,
+        "default_rate": 0.105,
+        "woe": 0.113,
+        "iv_contribution": 0.0061
+      }
+    ],
+    "LoanPurpose": [
+      {
+        "bin": "Auto",
+        "total_count": 50844,
+        "default_count": 6041,
+        "default_rate": 0.1188,
+        "woe": -0.026,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "Business",
+        "total_count": 51298,
+        "default_count": 6323,
+        "default_rate": 0.1233,
+        "woe": -0.0677,
+        "iv_contribution": 0.0009
+      },
+      {
+        "bin": "Education",
+        "total_count": 51005,
+        "default_count": 6038,
+        "default_rate": 0.1184,
+        "woe": -0.0218,
+        "iv_contribution": 0.0001
+      },
+      {
+        "bin": "Home",
+        "total_count": 51286,
+        "default_count": 5249,
+        "default_rate": 0.1023,
+        "woe": 0.1417,
+        "iv_contribution": 0.0038
+      },
+      {
+        "bin": "Other",
+        "total_count": 50914,
+        "default_count": 6002,
+        "default_rate": 0.1179,
+        "woe": -0.017,
+        "iv_contribution": 0.0001
+      }
+    ],
+    "HasCoSigner": [
+      {
+        "bin": "No",
+        "total_count": 127646,
+        "default_count": 16423,
+        "default_rate": 0.1287,
+        "woe": -0.1168,
+        "iv_contribution": 0.0071
+      },
+      {
+        "bin": "Yes",
+        "total_count": 127701,
+        "default_count": 13230,
+        "default_rate": 0.1036,
+        "woe": 0.1282,
+        "iv_contribution": 0.0078
+      }
+    ]
+  }
+}

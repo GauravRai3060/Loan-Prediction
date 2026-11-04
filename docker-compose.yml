@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  scoring-api:
+    build: .
+    container_name: bank_muscat_scoring_api
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    environment:
+      - ENVIRONMENT=production
+    restart: unless-stopped
+
+  dashboard:
+    build: .
+    container_name: bank_muscat_risk_dashboard
+    command: streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    depends_on:
+      - scoring-api
+    restart: unless-stopped
